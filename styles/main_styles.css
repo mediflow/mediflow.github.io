@@ -235,7 +235,8 @@ section
 .parallax-window
 {
     min-height: 400px;
-    background: transparent;
+    background: black;
+    opacity: 0.4;
 }
 .parallax_background
 {
@@ -712,13 +713,15 @@ section
 	font-size: 60px;
 	line-height: 1.2;
 	font-weight: 500;
-	color: #404040;
+	color: #fff;
+	text-shadow: 1px 1px 5 #000;
 }
 .subp_text
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #828282;
+	color: #eee;
+	text-shadow: 1px 1px 5 #000;
 	margin-top: 1px;
 }
 
