@@ -617,6 +617,13 @@ section
 {
 	color: #FFFFFF;
 }
+#book-burger
+{
+	background: #fd556d;
+	color: #fff;
+	margin-top:22px;
+	border-radius: 22px;
+}
 
 /*********************************
 5. Home
