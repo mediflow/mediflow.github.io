@@ -237,12 +237,12 @@ section
     min-height: 400px;
     background: black;
     visibility: visible;
-    background: rgba(0,0,0,0.4);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+/*	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
 	filter: alpha(opacity=40);
 	-moz-opacity: 0.4;
 	-khtml-opacity: 0.4;
-	opacity: 0.4;
+	opacity: 0.4;*/
 }
 .parallax_background
 {
