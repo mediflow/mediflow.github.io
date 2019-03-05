@@ -364,6 +364,7 @@ section
 {
 	margin-left: 226px;
 }
+#signupin,
 .main_nav ul li a
 {
 	font-size: 15px;
@@ -371,6 +372,7 @@ section
 	color: #404040;
 	white-space: nowrap;
 }
+#signupin,
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
@@ -462,6 +464,7 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	margin-left: 33px;
 }
 .hamburger:hover
 {
