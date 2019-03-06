@@ -286,7 +286,8 @@
 		font-size: 36px;
 	}
 	.background_image {
-		background-position: -340px top;
+    	background-position: -610px -120px;
+		background-size: 1300px
 	}
 	.background_image::before {
 	    content: '';
@@ -515,6 +516,6 @@
     and (-webkit-device-pixel-ratio : 3)
 {
 	.background_image {
-	    background-position: -450px center;
+	    background-position: -605px -60px;
 	}
 }
