@@ -116,12 +116,13 @@ $(document).ready(function()
 			homeSlider.owlCarousel(
 			{
 				items:1,
-				autoplay:true,
+				autoplay:false,
 				loop:true,
 				nav:false,
 				smartSpeed:1200,
 				mouseDrag:false,
-				dotsContainer:'home_slider_custom_dots'
+				touchDrag:false,
+				dotsContainer:'home_slider_custom_dots',
 			});
 
 			/* Custom dots events */
