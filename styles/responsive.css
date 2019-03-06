@@ -441,7 +441,21 @@
 	.footer_col iframe {
 		width: 100%;
 	}
-	
+	.intro_text p {
+	    -webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    -ms-column-count: 1;
+	    -o-column-count: 1;
+	    column-count: 1;
+	    -webkit-column-gap: 0;
+	    -moz-column-gap: 0;
+	    -ms-column-gap: 0;
+	    -o-column-gap: 0;
+	    column-gap: 0;
+	}
+	.services {
+	    padding-top: 0;
+	}
 }
 
 /************
@@ -483,5 +497,8 @@
 	    -ms-column-gap: 0;
 	    -o-column-gap: 0;
 	    column-gap: 0;
+	}
+	.services {
+	    padding-top: 0;
 	}
 }
