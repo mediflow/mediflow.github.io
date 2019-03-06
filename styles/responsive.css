@@ -285,6 +285,16 @@
 	{
 		font-size: 36px;
 	}
+	.background_image {
+		background-position: -340px top;
+	}
+	.background_image::before {
+	    content: '';
+	    background: #00000069;
+	    height: 100vh;
+	    width: 100vw;
+	    display: block;
+	}
 	.header.scrolled .header_content,
 	.header_content
 	{
@@ -334,6 +344,12 @@
 	.home_title
 	{
 		font-size: 36px;
+		color: white;
+	}
+	.home_content .home_text p {
+		color: white;
+		font-size: 15px;
+		line-height: 25px;
 	}
 	.cta_title
 	{
@@ -461,9 +477,6 @@
 
 @media only screen and (max-width: 400px)
 {
-	.background_image {
-	    background-position: left center;
-	}
 	.button a {
 	    font-size: 10px;
 	}
@@ -494,5 +507,14 @@
 	    -ms-column-gap: 0;
 	    -o-column-gap: 0;
 	    column-gap: 0;
+	}
+}
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3)
+{
+	.background_image {
+	    background-position: -450px center;
 	}
 }
